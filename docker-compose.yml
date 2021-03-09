@@ -1,0 +1,8 @@
+version: '3'
+services:
+  cypress:
+    image: dcd038ddd781
+    working_dir: /tests
+    volumes:
+      - $PWD:/tests
+    

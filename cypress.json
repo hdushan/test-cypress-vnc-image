@@ -1,0 +1,13 @@
+{
+    "integrationFolder": "spec",
+    "testFiles":"*.spec.js",
+    "pageLoadTimeout":60000,
+    "defaultCommandTimeout": 60000,
+    "taskTimeout": 60000,
+    "runMode":true,
+    "chromeWebSecurity":false,
+    "supportFile": "./cypress/support/index.js",
+    "pluginsFile": "./cypress/plugins/index.js",
+    "screenshotsFolder": "./cypress/screenshots",
+    "videosFolder": "./cypress/videos"
+  }
